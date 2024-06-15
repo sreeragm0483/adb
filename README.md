@@ -17,11 +17,11 @@ We highly recommend you go through the setup in `Dockerfile` and `docker-compose
 # Setup
 1. Clone this repository (DO NOT FORK)
 ```
-git clone https://github.com/adbrew/test.git
+git clone https://github.com/sreeragm0483/adb.git
 ```
 2. Change into the cloned directory and set the environment variable for the code path. Replace `path_to_repository` appropriately.
 ```
-export ADBREW_CODEBASE_PATH="{path_to_repository}/test/src"
+export ADBREW_CODEBASE_PATH="{path_to_repository}/adb_test/src"
 ```
 3. Build container (you only need to build containers for the first time or if you change image definition, i.e., `Dockerfile`). This step will take a good amount of time.
 ```
@@ -66,4 +66,3 @@ When you run `localhost:3000`, you would see 2 things:
    * https://kinsta.com/blog/python-object-oriented-programming/
    * https://realpython.com/solid-principles-python/
    * https://www.toptal.com/python/python-design-patterns
-# adb
